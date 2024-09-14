@@ -2,7 +2,7 @@ import logo from "../assets/logo.png";
 import motor from "../assets/motor.png";
 function Header() {
 	return (
-		<header className="flex justify-around items-center w-full h-20 alpha-white">
+		<header className="flex justify-around items-center w-full h-20 bg-transparent">
 			<div>
 				<img src={logo} alt="logo" />
 			</div>
