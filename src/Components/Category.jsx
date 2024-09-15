@@ -9,7 +9,7 @@ function Category() {
       <h1 className="w-2/5 px-2 text-center font-poppins text-5xl font-bold capitalize">
         What Do You Want To Eat Today?
       </h1>
-      <div className="flex items-center justify-center gap-7 py-5">
+      <div className="flex flex-wrap items-center justify-center gap-7 py-5">
         <CategoryCard />
         <CategoryCard />
         <CategoryCard />

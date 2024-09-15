@@ -17,6 +17,12 @@ function TastyMenu() {
         <TastyCard />
         <TastyCard />
       </div>
+      <a
+        href="#"
+        className="block rounded-full bg-red-600 px-5 py-4 text-center font-poppins text-xl font-semibold uppercase text-white hover:bg-black"
+      >
+        view all product
+      </a>
     </section>
   );
 }

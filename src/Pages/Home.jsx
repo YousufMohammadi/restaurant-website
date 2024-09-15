@@ -3,6 +3,7 @@ import SliderComponent from '../Components/SliderComponent';
 import Introduction from '../Components/Introduction';
 import Category from '../Components/Category';
 import TastyMenu from '../Components/TastyMenu';
+import DailyDeal from '../Components/DailyDeal';
 
 function Home() {
   return (
@@ -12,6 +13,7 @@ function Home() {
       <Introduction />
       <Category />
       <TastyMenu />
+      <DailyDeal />
     </main>
   );
 }
