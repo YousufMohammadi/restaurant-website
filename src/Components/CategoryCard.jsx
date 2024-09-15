@@ -1,14 +1,14 @@
-import { GiChickenOven } from "react-icons/gi";
+import { GiChickenOven } from 'react-icons/gi';
 
 function CategoryCard() {
-	return (
-		<div className="w-44 h-56 bg-red-600 rounded-2xl flex flex-col justify-center items-center gap-7 cursor-pointer hover:bg-red-500">
-			<GiChickenOven className="text-orange-300 text-7xl" />
-			<span className="text-white font-poppins font-bold uppercase">
-				burger
-			</span>
-		</div>
-	);
+  return (
+    <div className="flex h-56 w-44 cursor-pointer flex-col items-center justify-center gap-7 rounded-2xl bg-gray-100 shadow-lg hover:bg-red-500">
+      <GiChickenOven className="text-7xl text-orange-300" />
+      <span className="font-poppins font-bold uppercase text-black">
+        burger
+      </span>
+    </div>
+  );
 }
 
 export default CategoryCard;
