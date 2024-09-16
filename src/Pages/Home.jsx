@@ -4,6 +4,7 @@ import Introduction from '../Components/Introduction';
 import Category from '../Components/Category';
 import TastyMenu from '../Components/TastyMenu';
 import DailyDeal from '../Components/DailyDeal';
+import Suggestion from '../Components/Suggestion';
 
 function Home() {
   return (
@@ -14,6 +15,7 @@ function Home() {
       <Category />
       <TastyMenu />
       <DailyDeal />
+      <Suggestion />
     </main>
   );
 }
