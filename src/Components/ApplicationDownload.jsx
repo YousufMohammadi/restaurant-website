@@ -4,7 +4,7 @@ import { FaGooglePlay } from 'react-icons/fa';
 
 function ApplicationDownload() {
   return (
-    <div className="flex h-screen w-full flex-col items-center justify-center">
+    <section className="flex h-screen w-full flex-col items-center justify-center">
       <div className="flex w-full flex-col items-center justify-center bg-lightBrown">
         <div className="flex h-3/4 w-5/6 justify-around gap-10">
           <img src={mobile} alt="mobile" />
@@ -34,7 +34,7 @@ function ApplicationDownload() {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
 

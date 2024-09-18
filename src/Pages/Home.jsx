@@ -7,6 +7,7 @@ import DailyDeal from '../Components/DailyDeal';
 import Suggestion from '../Components/Suggestion';
 import Menu from '../Components/Menu';
 import ApplicationDownload from '../Components/ApplicationDownload';
+import Blog from '../Components/Blog';
 
 function Home() {
   return (
@@ -20,6 +21,7 @@ function Home() {
       <Suggestion />
       <Menu />
       <ApplicationDownload />
+      <Blog />
     </main>
   );
 }
