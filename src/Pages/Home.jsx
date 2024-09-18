@@ -6,6 +6,7 @@ import TastyMenu from '../Components/TastyMenu';
 import DailyDeal from '../Components/DailyDeal';
 import Suggestion from '../Components/Suggestion';
 import Menu from '../Components/Menu';
+import ApplicationDownload from '../Components/ApplicationDownload';
 
 function Home() {
   return (
@@ -18,6 +19,7 @@ function Home() {
       <DailyDeal />
       <Suggestion />
       <Menu />
+      <ApplicationDownload />
     </main>
   );
 }
