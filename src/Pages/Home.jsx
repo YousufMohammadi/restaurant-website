@@ -8,6 +8,7 @@ import Suggestion from '../Components/Suggestion';
 import Menu from '../Components/Menu';
 import ApplicationDownload from '../Components/ApplicationDownload';
 import Blog from '../Components/Blog';
+import Booking from '../Components/Booking';
 
 function Home() {
   return (
@@ -22,6 +23,7 @@ function Home() {
       <Menu />
       <ApplicationDownload />
       <Blog />
+      <Booking />
     </main>
   );
 }
