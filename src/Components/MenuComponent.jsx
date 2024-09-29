@@ -1,6 +1,6 @@
 import MenuCard from './MenuCard';
 
-function Menu() {
+function MenuComponent() {
   return (
     <section className="flex h-screen flex-col items-center justify-start gap-5 pt-10">
       <h1 className="px-2 text-center font-poppins text-5xl font-bold capitalize text-gray-900">
@@ -14,4 +14,4 @@ function Menu() {
   );
 }
 
-export default Menu;
+export default MenuComponent;

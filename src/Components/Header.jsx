@@ -20,25 +20,25 @@ function Header() {
           about
         </a>
         <a
-          href="#"
+          href="/menu"
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400"
         >
           menu
         </a>
         <a
-          href="#"
+          href="/products"
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400"
         >
           products
         </a>
         <a
-          href="#"
+          href="/blogs"
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400"
         >
           blog
         </a>
         <a
-          href="#"
+          href="/contact"
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400"
         >
           contact

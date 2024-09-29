@@ -9,7 +9,7 @@ function About() {
   return (
     <main className="h-auto w-full">
       <Header />
-      <Cocumbar />
+      <Cocumbar title="About" />
       <div className="mt-56 pt-10">
         <Category />
       </div>

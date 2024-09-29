@@ -5,7 +5,7 @@ import Category from '../Components/Category';
 import TastyMenu from '../Components/TastyMenu';
 import DailyDeal from '../Components/DailyDeal';
 import Suggestion from '../Components/Suggestion';
-import Menu from '../Components/Menu';
+import MenuComponent from '../Components/MenuComponent';
 import ApplicationDownload from '../Components/ApplicationDownload';
 import Blog from '../Components/Blog';
 import Booking from '../Components/Booking';
@@ -21,7 +21,7 @@ function Home() {
       <TastyMenu />
       <DailyDeal />
       <Suggestion />
-      <Menu />
+      <MenuComponent />
       <ApplicationDownload />
       <Blog />
       <Booking />
