@@ -13,11 +13,11 @@ export default function SliderComponent() {
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 4000,
-    className: 'slide',
+    // className: 'slide',
   };
   return (
     <div className="slider">
-      <Slider {...settings}>
+      <Slider {...settings} className="slide absolute left-0 top-0">
         <img src={slide1} alt="slide" className="h-screen w-full" />
         <img src={slide2} alt="slide" className="h-screen w-full" />
         <img src={slide3} alt="slide" className="h-screen w-full" />

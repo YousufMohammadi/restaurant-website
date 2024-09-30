@@ -1,6 +1,6 @@
 function Introduction() {
   return (
-    <section className="introduction flex w-1/3 flex-col gap-5 px-5">
+    <section className="introduction z-20 flex w-1/3 flex-col gap-5 px-5">
       <h1 className="font-poppins text-5xl font-bold leading-snug text-white">
         Combo <strong className="text-red-600">Burger</strong> with Cold Drink
       </h1>

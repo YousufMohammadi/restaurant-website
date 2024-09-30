@@ -2,7 +2,7 @@ import logo from '../assets/logo.png';
 import motor from '../assets/motor.png';
 function Header() {
   return (
-    <header className="flex h-20 w-full items-center justify-around bg-transparent">
+    <header className="z-30 flex h-16 w-full items-center justify-around bg-white/30">
       <div>
         <img src={logo} alt="logo" />
       </div>
@@ -44,11 +44,13 @@ function Header() {
           contact
         </a>
       </div>
-      <div className="flex w-48 items-center justify-between rounded-full bg-red-700 px-5 py-1 text-white">
+      <div className="flex w-48 items-center justify-between rounded-full bg-white px-5 py-1 text-slate-900">
         <img src={motor} alt="motor" className="animate-bounce" />
         <div className="flex flex-col items-start justify-between">
           <span className="font-poppins">call</span>
-          <span className="font-poppins font-bold text-white">0123456789</span>
+          <span className="font-poppins font-bold text-red-700">
+            0123456789
+          </span>
         </div>
       </div>
     </header>
