@@ -15,7 +15,7 @@ function Home() {
   return (
     <main className="h-auto w-full">
       <Header />
-      <SliderComponent />
+      {/* <SliderComponent />
       <Introduction />
       <div className="mt-96 p-20"></div>
       <Category />
@@ -26,7 +26,7 @@ function Home() {
       <ApplicationDownload />
       <Blog />
       <Booking />
-      <Footer />
+      <Footer /> */}
     </main>
   );
 }
