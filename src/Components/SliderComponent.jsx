@@ -18,9 +18,21 @@ export default function SliderComponent() {
   return (
     <div className="slider">
       <Slider {...settings} className="slide absolute left-0 top-0">
-        <img src={slide1} alt="slide" className="h-screen w-full" />
-        <img src={slide2} alt="slide" className="h-screen w-full" />
-        <img src={slide3} alt="slide" className="h-screen w-full" />
+        <img
+          src={slide1}
+          alt="slide"
+          className="cover-size h-screen w-full object-cover"
+        />
+        <img
+          src={slide2}
+          alt="slide"
+          className="cover-size h-screen w-full object-cover"
+        />
+        <img
+          src={slide3}
+          alt="slide"
+          className="cover-size h-screen w-full object-cover"
+        />
       </Slider>
     </div>
   );
