@@ -13,7 +13,7 @@ function Header() {
     }
   }
   return (
-    <header className="z-30 flex w-full items-center justify-between bg-white/10 px-5 py-2 md:justify-around">
+    <header className="fixed left-0 top-0 z-30 flex w-full items-center justify-between bg-white px-5 py-2 md:absolute md:justify-around md:bg-white/10">
       <div>
         <img src={logo} alt="logo" />
       </div>
@@ -71,7 +71,7 @@ function Header() {
       />
       {/* mobile menu links */}
       <div
-        className="absolute left-0 top-16 z-30 min-h-[calc(100vh_-_65px)] w-full flex-col items-center justify-start gap-5 bg-white py-5 max-sm:hidden sm:hidden md:hidden"
+        className="fixed left-0 top-16 z-30 min-h-[calc(100vh_-_65px)] w-full flex-col items-center justify-start gap-5 bg-white py-5 max-sm:hidden sm:hidden md:hidden"
         id="header"
       >
         <a

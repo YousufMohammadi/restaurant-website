@@ -1,14 +1,17 @@
-import { GiChickenOven } from 'react-icons/gi';
+import PropTypes from 'prop-types';
 
-function CategoryCard() {
+function CategoryCard({ title, icon }) {
   return (
-    <div className="flex h-56 w-44 cursor-pointer flex-col items-center justify-center gap-7 rounded-2xl bg-gray-100 shadow-lg hover:bg-red-500">
-      <GiChickenOven className="text-7xl text-orange-300" />
+    <div className="flex h-56 w-44 cursor-pointer flex-col items-center justify-center gap-7 rounded-2xl bg-gray-100 shadow-lg hover:bg-red-600">
+      {icon}
       <span className="font-poppins font-bold uppercase text-black">
-        burger
+        {title}
       </span>
     </div>
   );
 }
-
+CategoryCard.propTypes = {
+  title: PropTypes.string.isRequired,
+  icon: PropTypes.string.isRequired,
+};
 export default CategoryCard;

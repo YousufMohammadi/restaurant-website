@@ -1,6 +1,5 @@
 import Header from '../Components/Header';
-import SliderComponent from '../Components/SliderComponent';
-import Introduction from '../Components/Introduction';
+
 import Category from '../Components/Category';
 import TastyMenu from '../Components/TastyMenu';
 import DailyDeal from '../Components/DailyDeal';
@@ -10,16 +9,15 @@ import ApplicationDownload from '../Components/ApplicationDownload';
 import Blog from '../Components/Blog';
 import Booking from '../Components/Booking';
 import Footer from '../Components/Footer';
+import IntroductionComponent from '../Components/IntroductionComponent';
 
 function Home() {
   return (
     <main className="h-auto w-full">
       <Header />
-      <SliderComponent />
-      <Introduction />
-      {/* <div className="mt-96 p-20"></div> */}
-      {/* <Category />
-      <TastyMenu />
+      <IntroductionComponent />
+      <Category />
+      {/* <TastyMenu />
       <DailyDeal />
       <Suggestion />
       <MenuComponent />
