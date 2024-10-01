@@ -15,9 +15,9 @@ function Home() {
   return (
     <main className="h-auto w-full">
       <Header />
-      {/* <SliderComponent />
+      <SliderComponent />
       <Introduction />
-      <div className="mt-96 p-20"></div>
+      {/* <div className="mt-96 p-20"></div>
       <Category />
       <TastyMenu />
       <DailyDeal />

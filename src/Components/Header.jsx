@@ -13,7 +13,7 @@ function Header() {
     }
   }
   return (
-    <header className="z-30 flex w-full items-center justify-between bg-gray-600 px-5 py-2 md:justify-around">
+    <header className="z-30 flex w-full items-center justify-between bg-white/10 px-5 py-2 md:justify-around">
       <div>
         <img src={logo} alt="logo" />
       </div>
