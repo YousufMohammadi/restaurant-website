@@ -71,7 +71,7 @@ function Header() {
       />
       {/* mobile menu links */}
       <div
-        className="absolute left-0 top-16 z-30 min-h-screen w-full flex-col items-center justify-start gap-5 bg-gray-600 py-5 max-sm:hidden sm:hidden md:hidden"
+        className="absolute left-0 top-16 z-30 min-h-[calc(100vh_-_65px)] w-full flex-col items-center justify-start gap-5 bg-white py-5 max-sm:hidden sm:hidden md:hidden"
         id="header"
       >
         <a
@@ -110,7 +110,7 @@ function Header() {
         >
           contact
         </a>
-        <div className="w-48 items-center justify-between rounded-full bg-white px-5 py-1 text-slate-900 max-sm:flex sm:flex md:hidden">
+        <div className="w-48 items-center justify-between rounded-full bg-black/50 px-5 py-1 text-slate-100 max-sm:flex sm:flex md:hidden">
           <img src={motor} alt="motor" className="animate-bounce" />
           <div className="flex flex-col items-start justify-between">
             <span className="font-poppins">call</span>

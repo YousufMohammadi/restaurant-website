@@ -17,8 +17,8 @@ function Home() {
       <Header />
       <SliderComponent />
       <Introduction />
-      {/* <div className="mt-96 p-20"></div>
-      <Category />
+      {/* <div className="mt-96 p-20"></div> */}
+      {/* <Category />
       <TastyMenu />
       <DailyDeal />
       <Suggestion />
