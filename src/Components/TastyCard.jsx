@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa6';
 
 function TastyCard() {
   return (
-    <div className="flex h-96 w-80 cursor-pointer flex-col items-center justify-center gap-4 rounded-xl bg-gray-100">
+    <div className="flex h-96 w-80 cursor-pointer flex-col items-center justify-center gap-4 rounded-xl bg-gray-100 shadow-lg">
       <img src={pizza} alt="pizza" className="h-64 w-64" />
       <h3 className="font-poppins text-xl font-bold uppercase text-black">
         double cheese pizza
