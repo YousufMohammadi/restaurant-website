@@ -2,11 +2,11 @@ import MenuCard from './MenuCard';
 
 function MenuComponent() {
   return (
-    <section className="flex h-screen flex-col items-center justify-start gap-5 pt-10">
-      <h1 className="px-2 text-center font-poppins text-5xl font-bold capitalize text-gray-900">
+    <section className="mt-5 flex flex-col items-center justify-center gap-5">
+      <h1 className="mb-5 font-poppins text-xl font-bold capitalize text-gray-900 md:text-2xl lg:text-5xl">
         Menu Offers
       </h1>
-      <div className="flex h-full w-full flex-wrap items-center justify-center gap-5">
+      <div className="flex w-full flex-col items-center justify-center gap-10 lg:w-10/12 lg:flex-row">
         <MenuCard />
         <MenuCard />
       </div>

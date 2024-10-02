@@ -20,8 +20,8 @@ function Home() {
       <TastyMenu />
       <DailyDeal />
       <Suggestion />
-      {/* <MenuComponent />
-      <ApplicationDownload />
+      <MenuComponent />
+      {/* <ApplicationDownload />
       <Blog />
       <Booking />
       <Footer /> */}
