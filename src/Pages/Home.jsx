@@ -18,8 +18,8 @@ function Home() {
       <IntroductionComponent />
       <Category />
       <TastyMenu />
-      {/* <DailyDeal />
-      <Suggestion />
+      <DailyDeal />
+      {/* <Suggestion />
       <MenuComponent />
       <ApplicationDownload />
       <Blog />
