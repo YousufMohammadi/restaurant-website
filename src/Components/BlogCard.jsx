@@ -7,14 +7,14 @@ function BlogCard({ image }) {
       <div className="flex w-full flex-col justify-start gap-5 px-5 pb-3">
         <a
           href="#"
-          className="font-poppins text-xl font-bold text-gray-900 hover:text-red-600"
+          className="font-poppins text-lg font-bold text-gray-900 hover:text-red-600 md:text-xl"
         >
           The Ultimate Hangover Burger: Egg in a Hole Burger
         </a>
-        <span className="text-md font-poppins text-gray-800">
+        <span className="md:text-md font-poppins text-base text-gray-800">
           June 16, 2024
         </span>
-        <p className="font-poppins text-sm text-gray-700">
+        <p className="font-poppins text-xs text-gray-700 md:text-sm">
           Nam varius tempor sapien, sit amet ullamcorper...
         </p>
       </div>

@@ -18,17 +18,17 @@ function ApplicationDownload() {
             <div className="flex flex-col justify-start gap-4 lg:flex-row">
               <a
                 href="#"
-                className="text-dark flex w-64 items-center justify-start gap-2 rounded-full bg-yellow-500 px-5 py-2 text-center font-poppins font-normal capitalize hover:bg-yellow-400 md:w-56 md:py-4"
-              >
-                <FaApple className="text-5xl" />
-                Download on the App Store
-              </a>
-              <a
-                href="#"
                 className="flex w-64 items-center justify-start gap-2 rounded-full bg-red-700 px-5 py-2 text-center font-poppins font-normal capitalize text-white hover:bg-red-600 md:w-56 md:py-4"
               >
                 <FaGooglePlay className="text-5xl" />
                 Andriod App on Google Play
+              </a>
+              <a
+                href="#"
+                className="text-dark flex w-64 items-center justify-start gap-2 rounded-full bg-yellow-500 px-5 py-2 text-center font-poppins font-normal capitalize hover:bg-yellow-400 md:w-56 md:py-4"
+              >
+                <FaApple className="text-5xl" />
+                Download on the App Store
               </a>
             </div>
           </div>

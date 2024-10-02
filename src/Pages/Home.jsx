@@ -22,8 +22,8 @@ function Home() {
       <Suggestion />
       <MenuComponent />
       <ApplicationDownload />
-      {/* <Blog />
-      <Booking />
+      <Blog />
+      {/* <Booking />
       <Footer /> */}
     </main>
   );
