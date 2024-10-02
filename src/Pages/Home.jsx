@@ -23,8 +23,8 @@ function Home() {
       <MenuComponent />
       <ApplicationDownload />
       <Blog />
-      {/* <Booking />
-      <Footer /> */}
+      <Booking />
+      {/* <Footer /> */}
     </main>
   );
 }
