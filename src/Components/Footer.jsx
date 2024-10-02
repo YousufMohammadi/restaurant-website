@@ -8,10 +8,10 @@ import { FaChevronRight } from 'react-icons/fa6';
 
 function Footer() {
   return (
-    <footer className="flex h-screen w-full flex-wrap bg-black px-24 py-12">
-      <div className="flex w-full items-center justify-between border-b border-b-gray-900">
+    <footer className="flex w-full flex-wrap bg-black py-12 lg:px-24">
+      <div className="flex w-full flex-col items-center justify-between gap-5 border-b border-b-gray-900 py-2 md:mx-auto md:w-10/12 md:flex-row lg:w-full">
         <img src={logo} alt="logo" />
-        <div className="flex w-1/4 justify-center gap-2">
+        <div className="flex justify-center gap-2">
           <a
             href="#"
             className="rounded-full bg-gray-950 px-5 py-5 text-center text-lg text-white hover:bg-gray-900"
@@ -44,8 +44,8 @@ function Footer() {
           </a>
         </div>
       </div>
-      <div className="flex w-full flex-wrap items-center justify-start border-b border-b-gray-900 py-5">
-        <div className="flex w-1/4 flex-col justify-start gap-7">
+      <div className="flex w-full flex-col items-center justify-start gap-5 border-b border-b-gray-900 py-5 md:flex-row md:flex-wrap md:items-start md:justify-center lg:flex-nowrap">
+        <div className="flex w-10/12 flex-col justify-start gap-7 md:w-5/12 lg:w-1/4">
           <h2 className="font-poppins text-2xl font-bold text-white">
             About us
           </h2>
@@ -56,7 +56,7 @@ function Footer() {
             vestibulum
           </p>
         </div>
-        <div className="flex w-1/4 flex-col justify-start gap-7 pl-7">
+        <div className="flex w-10/12 flex-col justify-start gap-7 md:w-5/12 lg:w-1/4 lg:pl-7">
           <h2 className="font-poppins text-2xl font-bold text-white">
             Our Menu
           </h2>
@@ -99,7 +99,7 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex w-1/4 flex-col justify-start gap-7 pl-5">
+        <div className="flex w-10/12 flex-col justify-start gap-7 md:w-5/12 lg:w-1/4 lg:pl-5">
           <h2 className="font-poppins text-2xl font-bold text-white">
             Quick Links
           </h2>
@@ -142,7 +142,7 @@ function Footer() {
             </a>
           </div>
         </div>
-        <div className="flex w-1/4 flex-col justify-start gap-5">
+        <div className="flex w-10/12 flex-col justify-start gap-5 md:w-5/12 lg:w-1/4">
           <h2 className="font-poppins text-2xl font-bold text-white">
             Contact Info
           </h2>
@@ -161,12 +161,12 @@ function Footer() {
           </span>
         </div>
       </div>
-      <div className="mt-auto flex w-full items-center justify-between px-2">
-        <span className="font-poppins text-base text-white">
-          © Copyright 2022 SKT GB Sandwich. All Rights Reserved
+      <div className="mx-auto flex w-10/12 flex-col items-center justify-between gap-3 px-2 pt-3 md:flex-row lg:w-full">
+        <span className="text-center font-poppins text-base text-white">
+          © Copyright 2024 By Yousuf Mohammadi. All Rights Reserved
         </span>
         <span className="font-poppins text-base text-white">
-          Design by SKT Themes
+          Design by Yousuf Mohammadi
         </span>
       </div>
     </footer>

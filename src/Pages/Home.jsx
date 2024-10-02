@@ -24,7 +24,7 @@ function Home() {
       <ApplicationDownload />
       <Blog />
       <Booking />
-      {/* <Footer /> */}
+      <Footer />
     </main>
   );
 }
