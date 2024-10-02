@@ -21,8 +21,8 @@ function Home() {
       <DailyDeal />
       <Suggestion />
       <MenuComponent />
-      {/* <ApplicationDownload />
-      <Blog />
+      <ApplicationDownload />
+      {/* <Blog />
       <Booking />
       <Footer /> */}
     </main>
