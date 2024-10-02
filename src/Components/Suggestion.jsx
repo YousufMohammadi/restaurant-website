@@ -6,11 +6,11 @@ import suggest3 from '../assets/suggest3.jpg';
 
 function Suggestion() {
   return (
-    <section className="flex w-full items-center justify-around py-5">
-      <div className="flex w-2/3 flex-col items-center justify-center">
+    <section className="flex-start flex w-full flex-col items-center gap-10 py-5 lg:flex-row lg:items-start lg:justify-center lg:gap-0">
+      <div className="flex flex-col items-center justify-center lg:w-2/3">
         <SuggestionCard image={suggest1} />
       </div>
-      <div className="flex flex-col justify-center gap-10">
+      <div className="flex flex-col justify-center gap-10 lg:w-[350px] lg:gap-2">
         <SuggestionCardSmall image={suggest2} />
         <SuggestionCardSmall image={suggest3} />
       </div>

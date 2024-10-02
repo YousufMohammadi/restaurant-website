@@ -19,8 +19,8 @@ function Home() {
       <Category />
       <TastyMenu />
       <DailyDeal />
-      {/* <Suggestion />
-      <MenuComponent />
+      <Suggestion />
+      {/* <MenuComponent />
       <ApplicationDownload />
       <Blog />
       <Booking />
