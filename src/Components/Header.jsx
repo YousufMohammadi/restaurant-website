@@ -22,37 +22,37 @@ function Header() {
       <div className="justify-center gap-5 max-lg:flex max-sm:hidden sm:hidden md:flex">
         <a
           onClick={() => navigate('/home')}
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           home
         </a>
         <a
           onClick={() => navigate('/about')}
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           about
         </a>
         <a
           onClick={() => navigate('/menu')}
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           menu
         </a>
         <a
           onClick={() => navigate('/products')}
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           products
         </a>
         <a
           onClick={() => navigate('/blogs')}
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           blog
         </a>
         <a
           onClick={() => navigate('/contact')}
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           contact
         </a>
@@ -77,38 +77,38 @@ function Header() {
         id="header"
       >
         <a
-          href="/home"
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          onClick={() => navigate('/home')}
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           home
         </a>
         <a
-          href="/about"
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          onClick={() => navigate('/about')}
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           about
         </a>
         <a
-          href="/menu"
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          onClick={() => navigate('/menu')}
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           menu
         </a>
         <a
-          href="/products"
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          onClick={() => navigate('/products')}
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           products
         </a>
         <a
-          href="/blogs"
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          onClick={() => navigate('/blogs')}
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           blog
         </a>
         <a
-          href="/contact"
-          className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
+          onClick={() => navigate('/contact')}
+          className="cursor-pointer font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           contact
         </a>
