@@ -14,31 +14,31 @@ function Footer() {
         <div className="flex justify-center gap-2">
           <a
             href="#"
-            className="rounded-full bg-gray-950 px-5 py-5 text-center text-lg text-white hover:bg-gray-900"
+            className="rounded-full bg-gray-950 px-3 py-3 text-center text-base text-white hover:bg-gray-900 md:px-5 md:py-5 md:text-lg"
           >
             <FaFacebookF />
           </a>
           <a
             href="#"
-            className="rounded-full bg-gray-950 px-5 py-5 text-center text-lg text-white hover:bg-gray-900"
+            className="rounded-full bg-gray-950 px-3 py-3 text-center text-base text-white hover:bg-gray-900 md:px-5 md:py-5 md:text-lg"
           >
             <FaTwitter />
           </a>
           <a
             href="#"
-            className="rounded-full bg-gray-950 px-5 py-5 text-center text-lg text-white hover:bg-gray-900"
+            className="rounded-full bg-gray-950 px-3 py-3 text-center text-base text-white hover:bg-gray-900 md:px-5 md:py-5 md:text-lg"
           >
             <FaInstagram />
           </a>
           <a
             href="#"
-            className="rounded-full bg-gray-950 px-5 py-5 text-center text-lg text-white hover:bg-gray-900"
+            className="rounded-full bg-gray-950 px-3 py-3 text-center text-base text-white hover:bg-gray-900 md:px-5 md:py-5 md:text-lg"
           >
             <FaYoutube />
           </a>
           <a
             href="#"
-            className="rounded-full bg-gray-950 px-5 py-5 text-center text-lg text-white hover:bg-gray-900"
+            className="rounded-full bg-gray-950 px-3 py-3 text-center text-base text-white hover:bg-gray-900 md:px-5 md:py-5 md:text-lg"
           >
             <FaLinkedinIn />
           </a>
