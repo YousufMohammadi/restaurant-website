@@ -10,7 +10,7 @@ function About() {
     <main className="h-auto w-full">
       <Header />
       <Cocumbar title="About" />
-      <div className="mt-56 pt-10">
+      <div className="mt-56 pb-10 pt-20">
         <Category />
       </div>
       <div className="mx-auto flex w-full items-center justify-around bg-lightBrown">

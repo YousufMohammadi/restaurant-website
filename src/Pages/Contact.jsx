@@ -8,7 +8,7 @@ function Contact() {
     <main className="h-auto w-full">
       <Header />
       <Cocumbar title="Contact" />
-      <div className="mx-auto mt-56 flex w-10/12 flex-col items-center justify-start gap-5 pb-10 pt-20">
+      <div className="mx-auto mt-56 flex w-10/12 flex-col items-center justify-start gap-5 pb-10 pt-32">
         <Map />
         <div className="flex w-full justify-between pt-7">
           <div className="flex w-3/5 flex-col items-start justify-start gap-5 rounded-lg bg-white">

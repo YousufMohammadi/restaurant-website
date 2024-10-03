@@ -8,7 +8,7 @@ function Blogs() {
     <main className="h-auto w-full">
       <Header />
       <Cocumbar title="Blogs" />
-      <div className="mt-56 pb-10 pt-20">
+      <div className="mt-56 pb-10 pt-32">
         <Blog />
       </div>
       <Footer />
