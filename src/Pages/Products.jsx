@@ -8,9 +8,7 @@ function Products() {
     <main className="h-auto w-full">
       <Header />
       <Cocumbar title="Products" />
-      <div className="mt-56 pb-10 pt-20">
-        <TastyMenu />
-      </div>
+      <TastyMenu />
       <Footer />
     </main>
   );
