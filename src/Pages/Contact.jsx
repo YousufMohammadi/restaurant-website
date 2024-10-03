@@ -8,46 +8,48 @@ function Contact() {
     <main className="h-auto w-full">
       <Header />
       <Cocumbar title="Contact" />
-      <div className="mx-auto mt-56 flex w-10/12 flex-col items-center justify-start gap-5 pb-10 pt-32">
-        <Map />
-        <div className="flex w-full justify-between pt-7">
-          <div className="flex w-3/5 flex-col items-start justify-start gap-5 rounded-lg bg-white">
-            <h1 className="font-poppins text-4xl font-bold capitalize leading-snug">
-              Book Your Table
+      <div className="mx-auto flex w-10/12 flex-col items-center justify-start gap-5 py-5">
+        <div className="z-10 w-full">
+          <Map />
+        </div>
+        <div className="flex w-full flex-col justify-between pt-7 md:flex-row">
+          <div className="flex w-full flex-col items-center justify-start gap-5 md:w-3/5 md:items-start">
+            <h1 className="mb-5 font-poppins text-xl font-medium capitalize leading-snug md:text-2xl md:font-bold lg:text-4xl">
+              Message For Us
             </h1>
             <input
               type="text"
               placeholder="Your Name"
-              className="w-full border px-3 py-3"
+              className="w-10/12 border px-3 py-3"
             />
             <input
               type="email"
               placeholder="Your Email"
-              className="w-full border px-3 py-3"
+              className="w-10/12 border px-3 py-3"
             />
             <input
               type="text"
               placeholder="Subject"
-              className="w-full border px-3 py-3"
+              className="w-10/12 border px-3 py-3"
             />
             <textarea
               name="message"
               id="message"
               placeholder="Message"
-              className="w-full border px-3 py-3"
+              className="w-10/12 border px-3 py-3"
             ></textarea>
             <a
               href="#"
-              className="text-dark w-56 rounded-full bg-red-700 px-5 py-4 text-center font-poppins font-medium capitalize text-white hover:bg-red-400"
+              className="w-36 rounded-full bg-red-700 px-3 py-2 text-center font-poppins text-sm font-light capitalize text-white hover:bg-red-600 lg:w-60 lg:px-5 lg:py-4 lg:text-xl lg:font-normal"
             >
               SUBMIT
             </a>
           </div>
-          <div className="flex flex-col items-start justify-start gap-3">
+          <div className="flex flex-col items-center justify-start gap-3 pt-5 md:items-start md:pt-0">
             <h2 className="font-poppins text-2xl font-bold capitalize text-slate-900">
               Contact Info
             </h2>
-            <p className="font-poppins text-base text-slate-800">
+            <p className="text-center font-poppins text-base text-slate-800 md:text-start">
               Donec ultricies mattis nulla Australia
             </p>
             <p className="font-poppins text-base text-slate-800">
