@@ -1,9 +1,11 @@
+import { useNavigate } from 'react-router-dom';
 import logo from '../assets/logo.png';
 import motor from '../assets/motor.png';
 import { RxHamburgerMenu } from 'react-icons/rx';
 
 function Header() {
   // navigation or burger Menu
+  const navigate = useNavigate();
   function handleMenu() {
     var x = document.getElementById('header');
     if (x.style.display === 'flex') {
@@ -19,37 +21,37 @@ function Header() {
       </div>
       <div className="justify-center gap-5 max-lg:flex max-sm:hidden sm:hidden md:flex">
         <a
-          href="/home"
+          onClick={() => navigate('/home')}
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           home
         </a>
         <a
-          href="/about"
+          onClick={() => navigate('/about')}
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           about
         </a>
         <a
-          href="/menu"
+          onClick={() => navigate('/menu')}
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           menu
         </a>
         <a
-          href="/products"
+          onClick={() => navigate('/products')}
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           products
         </a>
         <a
-          href="/blogs"
+          onClick={() => navigate('/blogs')}
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           blog
         </a>
         <a
-          href="/contact"
+          onClick={() => navigate('/contact')}
           className="font-poppins text-sm font-medium capitalize text-black hover:text-red-400 lg:text-base"
         >
           contact

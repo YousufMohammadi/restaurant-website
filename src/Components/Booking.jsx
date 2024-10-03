@@ -67,7 +67,7 @@ function Booking() {
         </div>
       </div>
       {/* booking */}
-      <div className="flex h-screen w-10/12 flex-col items-center justify-start gap-5 rounded-lg bg-white lg:w-2/5">
+      <div className="flex h-full w-10/12 flex-col items-center justify-start gap-5 rounded-lg bg-white pb-5 lg:w-2/5">
         <h1 className="mb-5 pt-7 font-poppins text-xl font-medium capitalize leading-snug md:text-2xl md:font-bold lg:text-4xl">
           Book Your Table
         </h1>
